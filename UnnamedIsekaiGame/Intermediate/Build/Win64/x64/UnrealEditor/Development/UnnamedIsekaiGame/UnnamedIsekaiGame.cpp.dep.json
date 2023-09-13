@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\development\\isekaigame\\unnamedisekaigame\\unnamedisekaigame\\source\\unnamedisekaigame\\unnamedisekaigame.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\development\\isekaigame\\unnamedisekaigame\\unnamedisekaigame\\intermediate\\build\\win64\\x64\\unnamedisekaigameeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\development\\isekaigame\\unnamedisekaigame\\unnamedisekaigame\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unnamedisekaigame\\definitions.unnamedisekaigame.h",
+            "d:\\development\\isekaigame\\unnamedisekaigame\\unnamedisekaigame\\source\\unnamedisekaigame\\unnamedisekaigame.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

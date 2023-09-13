@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnnamedIsekaiGame",
+			"Path": "..\\Source\\UnnamedIsekaiGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnnamedIsekaiGameEditor",
+			"Path": "..\\Source\\UnnamedIsekaiGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

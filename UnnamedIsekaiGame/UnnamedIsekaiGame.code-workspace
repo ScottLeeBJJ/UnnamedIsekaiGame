@@ -1,0 +1,613 @@
+{
+	"folders": [
+		{
+			"name": "UnnamedIsekaiGame",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "D:\\Games\\UE_5.3"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "UnnamedIsekaiGame Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnnamedIsekaiGame",
+					"Win64",
+					"Debug",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGame Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnnamedIsekaiGame",
+					"Win64",
+					"Debug",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"UnnamedIsekaiGame Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGame Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"UnnamedIsekaiGame",
+					"Win64",
+					"Debug",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGame Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnnamedIsekaiGame",
+					"Win64",
+					"DebugGame",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGame Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnnamedIsekaiGame",
+					"Win64",
+					"DebugGame",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"UnnamedIsekaiGame Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGame Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"UnnamedIsekaiGame",
+					"Win64",
+					"DebugGame",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGame Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnnamedIsekaiGame",
+					"Win64",
+					"Development",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGame Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnnamedIsekaiGame",
+					"Win64",
+					"Development",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"UnnamedIsekaiGame Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGame Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"UnnamedIsekaiGame",
+					"Win64",
+					"Development",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGame Win64 Test Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnnamedIsekaiGame",
+					"Win64",
+					"Test",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGame Win64 Test Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnnamedIsekaiGame",
+					"Win64",
+					"Test",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"UnnamedIsekaiGame Win64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGame Win64 Test Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"UnnamedIsekaiGame",
+					"Win64",
+					"Test",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGame Win64 Shipping Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnnamedIsekaiGame",
+					"Win64",
+					"Shipping",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGame Win64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnnamedIsekaiGame",
+					"Win64",
+					"Shipping",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"UnnamedIsekaiGame Win64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGame Win64 Shipping Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"UnnamedIsekaiGame",
+					"Win64",
+					"Shipping",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGameEditor Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnnamedIsekaiGameEditor",
+					"Win64",
+					"Debug",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGameEditor Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnnamedIsekaiGameEditor",
+					"Win64",
+					"Debug",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"UnnamedIsekaiGameEditor Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGameEditor Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"UnnamedIsekaiGameEditor",
+					"Win64",
+					"Debug",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGameEditor Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnnamedIsekaiGameEditor",
+					"Win64",
+					"DebugGame",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGameEditor Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnnamedIsekaiGameEditor",
+					"Win64",
+					"DebugGame",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"UnnamedIsekaiGameEditor Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGameEditor Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"UnnamedIsekaiGameEditor",
+					"Win64",
+					"DebugGame",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGameEditor Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnnamedIsekaiGameEditor",
+					"Win64",
+					"Development",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGameEditor Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"UnnamedIsekaiGameEditor",
+					"Win64",
+					"Development",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"UnnamedIsekaiGameEditor Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "UnnamedIsekaiGameEditor Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"UnnamedIsekaiGameEditor",
+					"Win64",
+					"Development",
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "D:\\Games\\UE_5.3"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch UnnamedIsekaiGame (Debug)",
+				"request": "launch",
+				"program": "D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+				"preLaunchTask": "UnnamedIsekaiGame Win64 Debug Build",
+				"args": [
+				],
+				"cwd": "D:\\Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch UnnamedIsekaiGame (DebugGame)",
+				"request": "launch",
+				"program": "D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+				"preLaunchTask": "UnnamedIsekaiGame Win64 DebugGame Build",
+				"args": [
+				],
+				"cwd": "D:\\Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch UnnamedIsekaiGame (Development)",
+				"request": "launch",
+				"program": "D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\Binaries\\Win64\\UnrealGame.exe",
+				"preLaunchTask": "UnnamedIsekaiGame Win64 Development Build",
+				"args": [
+				],
+				"cwd": "D:\\Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch UnnamedIsekaiGame (Test)",
+				"request": "launch",
+				"program": "D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+				"preLaunchTask": "UnnamedIsekaiGame Win64 Test Build",
+				"args": [
+				],
+				"cwd": "D:\\Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch UnnamedIsekaiGame (Shipping)",
+				"request": "launch",
+				"program": "D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+				"preLaunchTask": "UnnamedIsekaiGame Win64 Shipping Build",
+				"args": [
+				],
+				"cwd": "D:\\Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch UnnamedIsekaiGameEditor (Debug)",
+				"request": "launch",
+				"program": "D:\\Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+				"preLaunchTask": "UnnamedIsekaiGameEditor Win64 Debug Build",
+				"args": [
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject"
+				],
+				"cwd": "D:\\Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch UnnamedIsekaiGameEditor (DebugGame)",
+				"request": "launch",
+				"program": "D:\\Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+				"preLaunchTask": "UnnamedIsekaiGameEditor Win64 DebugGame Build",
+				"args": [
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject"
+				],
+				"cwd": "D:\\Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch UnnamedIsekaiGameEditor (Development)",
+				"request": "launch",
+				"program": "D:\\Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+				"preLaunchTask": "UnnamedIsekaiGameEditor Win64 Development Build",
+				"args": [
+					"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject"
+				],
+				"cwd": "D:\\Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "D:\\Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "D:\\Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Win64 Development Build",
+				"program": "D:\\Games\\UE_5.3\\Engine\\Build\\BatchFiles\\RunUBT.bat",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"console": "externalTerminal",
+				"stopAtEntry": false,
+				"cwd": "D:\\Games\\UE_5.3"
+			}
+		]
+	}
+}

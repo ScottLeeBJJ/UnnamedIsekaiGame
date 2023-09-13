@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\Source\\UnnamedIsekaiGame\\UnnamedIsekaiGame.Build.cs",
+		"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\Source\\UnnamedIsekaiGame.Target.cs",
+		"D:\\Development\\IsekaiGame\\UnnamedIsekaiGame\\UnnamedIsekaiGame\\Source\\UnnamedIsekaiGameEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.0"
+}
