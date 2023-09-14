@@ -702,3 +702,87 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.14-06.17.44:509][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
 [2023.09.14-06.17.44:859][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.6.dll
 [2023.09.14-06.17.44:908][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.7.dll
+[2023.09.14-06.17.45:204][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+[2023.09.14-06.17.45:335][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.9.dll
+[2023.09.14-06.17.45:483][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.10.dll
+[2023.09.14-06.17.45:559][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2023.09.14-06.17.45:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.09.14-06.17.45:650][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.09.14-06.17.45:650][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.09.14-06.17.45:650][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.09.14-06.17.45:650][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.09.14-06.17.45:650][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.09.14-06.17.45:650][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.09.14-06.17.45:650][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.09.14-06.17.45:650][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.09.14-06.17.45:650][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.09.14-06.17.45:770][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.09.14-06.17.45:770][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.09.14-06.17.45:932][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.09.14-06.17.45:932][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2023.09.14-06.17.45:932][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.09.14-06.17.45:932][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.09.14-06.17.46:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2023.09.14-06.17.46:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2023.09.14-06.17.46:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2023.09.14-06.17.46:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2023.09.14-06.17.46:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2023.09.14-06.17.46:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2023.09.14-06.17.46:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2023.09.14-06.17.46:091][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.09.14-06.17.46:091][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.09.14-06.17.46:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.09.14-06.17.46:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2023.09.14-06.17.46:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.09.14-06.17.46:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.09.14-06.17.46:236][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2023.09.14-06.17.46:517][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.09.14-06.17.47:894][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager:   SF_METAL
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager:   SF_METAL_SM6
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager:   SF_METAL_SIM
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager:   VVM_1_0
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2023.09.14-06.17.47:968][  0]LogTargetPlatformManager:   SF_VULKAN_SM6
+[2023.09.14-06.17.47:968][  0]LogRendererCore: Ray tracing is disabled. Reason: disabled through project setting (r.RayTracing=0).
+[2023.09.14-06.17.47:970][  0]LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2023.09.14-06.17.47:970][  0]LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file ../../../../../Development/IsekaiGame/UnnamedIsekaiGame/UnnamedIsekaiGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.09.14-06.17.47:970][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2023.09.14-06.17.47:970][  0]LogDerivedDataCache: FDerivedDataBackendGraph: CompressedPak pak cache file ../../../../../Development/IsekaiGame/UnnamedIsekaiGame/UnnamedIsekaiGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.09.14-06.17.47:970][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2023.09.14-06.17.48:094][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (2327 MiB)
+[2023.09.14-06.17.48:094][  0]LogDerivedDataCache: FDerivedDataBackendGraph: EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.09.14-06.17.48:094][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2023.09.14-06.17.48:134][  0]LogDerivedDataCache: C:/Users/scott/AppData/Local/UnrealEngine/Common/DerivedDataCache: Speed tests took 0.04 seconds.
+[2023.09.14-06.17.48:134][  0]LogDerivedDataCache: Display: C:/Users/scott/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.08ms. RandomReadSpeed=27.05MBs, RandomWriteSpeed=202.33MBs. Assigned SpeedClass 'Local'
+[2023.09.14-06.17.48:136][  0]LogDerivedDataCache: Local: Using data cache path C:/Users/scott/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.09.14-06.17.48:136][  0]LogDerivedDataCache: Shared: Disabled because no path is configured.
+[2023.09.14-06.17.48:136][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2023.09.14-06.17.48:136][  0]LogDerivedDataCache: Cloud: Disabled because Host is set to 'None'
+[2023.09.14-06.17.48:136][  0]LogDerivedDataCache: Unable to find inner node Cloud for hierarchy Hierarchy.
+[2023.09.14-06.17.48:137][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../Development/IsekaiGame/UnnamedIsekaiGame/UnnamedIsekaiGame/Intermediate/Shaders/WorkingDirectory/11432/).
+[2023.09.14-06.17.48:137][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/scott/AppData/Local/Temp/UnrealShaderWorkingDir/DC98BE4F43C9E9216F52799263C52873/'.
+[2023.09.14-06.17.48:137][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.09.14-06.17.48:137][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 8 workers.
+[2023.09.14-06.17.54:034][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2023.09.14-06.17.56:123][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../Development/IsekaiGame/UnnamedIsekaiGame/UnnamedIsekaiGame/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2023.09.14-06.17.56:123][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
